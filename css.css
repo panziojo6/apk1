@@ -5,7 +5,7 @@
   box-sizing: border-box;
   font-family: 'Mali', sans-serif;
 }
-body {
+.body_all {
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -27,7 +27,7 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #C5E1A5;
 }
-.container {
+.con_all {
   display: flex;
   gap: 12px;
   max-width: 400px;
@@ -42,7 +42,7 @@ body {
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
   border: 2px solid #C5E1A5;
 }
-.container .card {
+.con_all .card_all {
   display: flex;
   flex: 0 0 100%;
   flex-direction: column;
@@ -54,7 +54,7 @@ body {
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
 }
 
- .image {
+ .img_all {
   /* background: #A6CE39; */
   height: 300px;
   width: 300px;
@@ -62,20 +62,20 @@ body {
   border-radius: 50%;
 }
 
-.image img {
+.img_all img {
   height: 100%;
   width: 100%;
   object-fit: cover;
   border-radius: 50%;
   border: 4px solid #A6CE39;
 }
-.card h2 {
+.card_all h2 {
   margin-top: 25px;
   color: #437832 ;
   font-size: 20px;
   font-weight: 650;
 }
-.card p {
+.card_all p {
   margin-top: 4px;
   font-size: 18px;
   font-weight: 400;
